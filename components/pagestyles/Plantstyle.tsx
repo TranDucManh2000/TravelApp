@@ -1,0 +1,55 @@
+import { StyleSheet, Text, View } from "react-native";
+export const planstyles = StyleSheet.create({
+  boxfigh: {
+    height: 200,
+    width: "40%",
+    backgroundColor: "#F4F4F4",
+    justifyContent: "center",
+    alignItems: "center",
+    borderRadius: 10,
+  },
+  boxwshare100: {
+    height: 100,
+    width: "100%",
+    backgroundColor: "#F4F4F4",
+    justifyContent: "center",
+    alignItems: "flex-start",
+    borderRadius: 10,
+    marginBottom: 10,
+    marginTop: 10,
+  },
+  boxwshare80: {
+    width: 250,
+    backgroundColor: "#F4F4F4",
+    justifyContent: "space-around",
+    alignItems: "center",
+    flexDirection: "row",
+    marginLeft: 10,
+  },
+  topabsolute: {
+    position: "absolute",
+    top: 50,
+    width: "90%",
+    flexDirection: "row",
+    justifyContent: "space-around",
+  },
+  bottomabsolute: {
+    position: "absolute",
+    bottom: 40,
+    width: "90%",
+  },
+  mapInput: {
+    backgroundColor: "#fff",
+    width: "70%",
+    height: 45,
+    borderRadius: 45,
+  },
+  previuFiter: {
+    width: 45,
+    height: 45,
+    backgroundColor: "#fff",
+    borderRadius: 50,
+    justifyContent: "center",
+    alignItems: "center",
+  },
+});
